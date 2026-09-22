@@ -1,0 +1,23 @@
+# Системные сообщения плагина AtomMessage
+prefix: "<gradient:#00B5FD:#7670E5><b>AtomMessage</b></gradient> &8» &f"
+
+no-permission: "&cУ вас нет прав для выполнения этой команды!"
+only-players: "&cЭта команда доступна только игрокам!"
+reload-success: "&aКонфигурация успешно перезагружена! ТАБ сообщений: &e{tab_count}&a, ЧАТ анонсов: &e{chat_count}&a."
+reload-error: "&cОшибка при перезагрузке конфигурации! Проверьте консоль."
+next-success: "&fПереключено на следующее сообщение: &e{id}&f."
+no-messages: "&cСписок сообщений пуст!"
+broadcast-success: "&aОбъявление &e{id} &aуспешно отправлено всем игрокам!"
+broadcast-not-found: "&cОбъявление с ID &e{id} &cне найдено в config.yml!"
+info-format: "&7ТАБ: &e{tab_current}&7/&f{tab_total} &8| &7ЧАТ: &e{chat_current}&7/&f{chat_total} &8(след. через &e{chat_next}с&8)"
+
+help:
+  - " "
+  - "<gradient:#00B5FD:#7670E5><b>Команды управления AtomMessage:</b></gradient>"
+  - " &e/atommessage broadcast <id> &7— Моментально отправить объявление в чат"
+  - " &e/atommessage test <текст> &7— Протестировать форматирование (цвета, ссылки, кнопки)"
+  - " &e/atommessage list &7— Показать все загруженные сообщения (ТАБ и ЧАТ)"
+  - " &e/atommessage next &7— Переключить сообщение в ТАБе на следующее"
+  - " &e/atommessage info &7— Информация о текущем статусе и таймерах"
+  - " &e/atommessage reload &7— Перезагрузить конфигурацию плагина"
+  - " "

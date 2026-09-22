@@ -1,0 +1,23 @@
+name: AtomMessage
+version: '${project.version}'
+main: ru.atomicsqd.atommessage.AtomMessage
+api-version: '1.20'
+author: ejyqyl, atomicsqd
+website: https://t.me/atomicsqd
+description: Universal chat announcements and TAB messages with interactive links, clickable commands, HEX, MiniMessage, and all colors for Paper 1.20-1.21.x
+softdepend: [PlaceholderAPI]
+
+commands:
+  atommessage:
+    description: Главная команда плагина AtomMessage
+    aliases: [am, atommsg]
+    permission: atommessage.admin
+
+permissions:
+  atommessage.admin:
+    description: Полный доступ к управлению AtomMessage (перезагрузка, принудительные рассылки, тесты)
+    default: op
+  atommessage.receive.*:
+    description: Доступ ко всем группам рассылок
+    default: true
+
